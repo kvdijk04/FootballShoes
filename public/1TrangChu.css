@@ -1,0 +1,2313 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+/* Handle on hover */
+:-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.whathot::-webkit-scrollbar {
+    display: none;
+}
+.cartpayment::-webkit-scrollbar {
+    display: none;
+}
+.whathot1::-webkit-scrollbar {
+    display: none;
+}
+
+.whyyouchooseus{
+    display: flex;
+    background: black;
+    color: white;
+}
+.whyyouchooseus p{
+    font-size: 15px;
+    margin: auto;
+    color: white;
+}
+
+.TitleTab{
+    width: 1080px;
+    margin: auto;
+    display: flex;
+    margin-top: 500px;
+}
+/* Style tab links */
+.tablink {
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  width: 130px;
+  cursor: pointer;
+  background: black;
+}
+/*button don hang trang chu......*/
+.container .tablink{
+    font-size: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    width: 80px;
+    cursor: pointer;
+    
+}
+/*button nam nu tre em the thao*/
+.container2 .tablink{
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+    width: 100px;
+    cursor: pointer;
+}
+/*cột thể thao*/
+.sub-menu1 .tablink{
+    font-size: 13px;
+    width: 100px;
+    cursor: pointer;
+}
+.originalsproduct.tablink{
+    font-size: 13px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.tablink:hover {
+  background-color: none;
+  color: black;
+  transition: background 0.6s;
+    background: white;
+}
+.tabcontent {
+  color: black;
+  display: none;
+}
+.tabcontent .tablink{
+    border: 0.5px solid whitesmoke;
+    padding: 12px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    background: black;
+    cursor: pointer;
+}
+.tabcontent .tablink:hover{
+    background: white;
+    transition: background 0.3s;
+    color: black;
+}
+.small-categories .tablink{
+    float: left;
+}
+.menu .tablink{
+    margin: 5px;
+    background: white;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+#Sle{
+    width: 120px;
+}
+#Mn{
+    width: 70px;
+}
+#Wm{
+    width: 70px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+
+  
+}
+.countitem{
+    padding:0.2rem 0.5rem;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+.checked{
+    color: orange;
+}
+/*Phần menu header title Nam nu tre em the thao----------------------------------------------*/
+
+header2{
+    top: 25px;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 5px 25px;
+    background: white;
+    position: fixed;
+    z-index: 1;
+
+}
+header2.sticky{
+    padding: 0px 100px;
+    background: white;
+    width: 100%;
+    top: 0;left: 0;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+header{
+    border-style: ridge;
+    width: 100%;
+    background: rgba(128, 119, 0, 0.993);
+}
+menu{
+    border-style: ridge;
+    width: 1080px;
+    margin: auto;
+
+}
+.border{
+    width: 1080px;
+    margin:auto;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.navbar1{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.sbmenucontain{
+display: flex;
+width: 100%;
+border-style: ridge;
+}
+.sub-menu p{
+margin-left: 20px;
+margin-right: 20px;
+}
+.sub-menu1 p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.sbm1{
+    display: flex;
+}
+.sbm1 a{
+    color: rgb(0, 110, 255);
+    padding-left: 50px;
+    border-style: ridge;
+    margin-top: 100px;
+}
+.sbm1 ul li{
+    margin-top: 50px;
+}
+.sub-menu {
+    display: none;
+    position: relative;
+    left: -500px;
+    display: flex;
+    padding: 10px 50px;
+    z-index: 1;
+    overflow-Y: scroll;
+    overflow: hidden;
+}
+.sub-menu1{
+    display: none;
+    position: relative;
+    left: -675px;
+    display: flex;
+    z-index: 1;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+.eachproduct{
+    display: none;
+    position: relative;
+    display: flex;
+}
+nav li{
+    position: relative;
+}
+nav .sub-menu{
+    position: absolute;
+    display: none;
+}
+nav .eachproduct{
+    position: absolute;
+    display: none;
+}
+.ep ul {
+    display: flex;
+}
+nav li:hover .eachproduct{
+    display: block;
+    display: flex;
+    background: white;
+    align-items: center;
+}
+nav li:hover .sub-menu{
+    display: block;
+    display: flex;
+    background: white;
+    border:0.5px solid black;
+    align-items: center;
+    z-index: 1;
+}
+nav .sub-menu1{
+    position: absolute;
+    display: none;
+}
+nav li:hover .sub-menu1{
+    display: block;
+    display: flex;
+    background: white;
+    border:0.5px solid black;
+    align-items: center;
+    z-index: 1;
+}
+.mySlides{
+    border-style: ridge;
+    width: 330px;
+    margin: auto;
+    height: 550px;
+    position: relative;
+    text-align: center;
+
+}
+.box1{
+    border-style: ridge;
+    width: 300px;
+    margin: auto;
+}
+p{
+    color: #555;
+}
+.logomenu{
+    border-style: dotted;
+}
+
+.container{
+    width: 480px;
+    float: right;
+    z-index: 1;
+    margin: auto;
+}
+
+.container2{
+    width: 100%;
+}
+.mySlides{
+    margin: auto;
+}
+.Khuyenmai{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+.col-2 img{
+    max-width: 100%;
+    padding:20px 20px;
+
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-3 i{
+    color:red;
+}
+.btn{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 25px 50px;/*25 rong 50dai */
+    margin:30px 0;
+    font-size: 15;
+    transition: background 0.5s;
+    text-align: center;
+    border-style: double;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background: gray;
+}
+.box{
+    color:black;
+    text-align: center;
+
+}
+.header{
+    background:radial-gradient(orange,yellow,rgba(128, 119, 0, 0.993));
+    max-width: 100%;
+
+}
+.header1{
+    max-width: 1080px;
+    margin:auto;
+    color: black;
+}
+.small-categories{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+    color:black;
+}
+.small-categories2{
+    max-width: 1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:black;
+    text-align: center;
+}
+.poster{
+    background:black;
+    max-width: 100%;
+    display: flex;
+
+}
+.poster1{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    color: white;
+
+
+}
+.said{
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+h5{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+.said i{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+p{
+    color: black;
+    font-size: 13px;
+}
+.small-categories1{
+    width: 1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:black;
+    margin: auto;
+    text-align: left;
+    margin-top: 50px;
+    text-align: left;
+}
+.small-categories1 h1{
+font-size: 30px;
+}
+
+.whathot{
+    width: 1280px;
+    overflow-x: scroll;
+    position: relative;
+    margin: auto;
+    height: auto;
+    text-align: left;
+}
+.whathot .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1660px;
+
+}
+.whathot .col-4{
+
+    width: 500px;
+    background: white;
+}
+.containerbestseller{
+    max-width: 100%;
+    margin:auto;
+
+}
+.containerwhathot{
+    max-width: 1280px;
+    margin:auto;
+
+}
+.titlebs{
+    width: 1280px;
+    margin: auto;
+    text-align: left;
+    
+}
+.titlewh{
+    width: 1280px;
+    margin: auto;
+    text-align: left;
+    
+}
+.titlewh h1{
+    font-size: 30px;
+    width: 280px;
+    border-bottom: 2px solid rgb(0, 162, 255);
+
+}
+.titlebs h1{
+    font-size: 30px;
+    width: 280px;
+    border-bottom: 2px solid rgb(0, 162, 255);
+
+}
+.whathot1{
+    width: 1280px;
+    overflow-x: scroll;
+    position: relative;
+    margin: auto;
+    height: auto;
+}
+.whathot1 .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1860px;
+
+}
+.whathot1 .col-4{
+
+    width: 500px;
+    background: white;
+}
+.whathot1 .col-4 img{
+    width: 100%;
+}
+.whathot h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+.whathot i{
+    font-size: 14px;
+}
+.whathot p{
+    font-size: 15px;
+}
+
+.nhanbiet{
+    text-align: left;
+    width: 1080px;
+    margin: auto;
+}
+.nhanbiet h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+.nhanbiet i{
+    font-size: 14px;
+}
+.nhanbiet  p{
+    font-size: 15px;
+}
+.nhanbiet .col-4{
+    min-width: 325px;
+    flex-basis: 5%;/*Chỉnh khoảng cách các bức ảnh*/
+    margin-bottom: 10px;
+    margin-top:10px;
+    justify-content: space-around;
+}
+/*Alphabounce*/
+.nhanbiet1{
+    text-align: left;
+    width: 1080px;
+    margin: auto;
+}
+.nhanbiet1 h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+.nhanbiet1 h2{
+    font-size: 26px;
+}
+.nhanbiet1 i{
+    font-size: 14px;
+}
+.nhanbiet1 p{
+    font-size: 16px;
+}
+.nhanbiet1 .row .col-4 img{
+    width: 380px;
+    height: 380px;
+}
+.nhanbiet1 .col-4{
+    min-width: 980px;
+    display: flex;
+    justify-content: space-between;
+}
+.nhanbiet1 .col-4 .introducealphabounce{
+    margin-left: 30px;
+    width: 395px;
+}
+.thongso{
+    text-align: left;
+    width: 1080px;
+    margin: auto;
+}
+.thongsongang{
+    display: flex;
+    width: 980px;
+    margin: auto;
+}
+.thongsongang .cot{
+    margin-right: 100px;
+    width: 380px;
+    text-align: left;
+
+}
+.thongso .cot li{
+    text-decoration: dotted;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.rate{
+    width: 1080px;
+    margin: auto;
+    margin-top: 50px;
+}
+.titlerate{
+    width: 500px;
+    text-align: left;
+    font-size: 30px;
+}
+.containerrate{
+    display: flex;
+}
+.containstar{
+    background: #2ada71;
+    display: flex;
+    color: black;
+    padding:2px 25px;
+    text-align: center;
+    width: 245px;
+}
+.qualitystar{
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+}
+.starandreview{
+    text-align: center;
+}
+.starandreview span{
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.starandreview p{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+.starandreview .checked{
+    color: black;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.ratenumber{
+    width: 258px;
+}
+
+.hmvote{
+    display: flex;
+    margin-top: 5px;
+}
+.titlevote{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.titlestar{
+    font-size: 14px;
+    text-decoration: underline;
+}
+.titlestar strong{
+    width: 39px;
+}
+.barcontainer{
+    background: whitesmoke;
+    width: 161px;
+    height: 4px;
+    margin-left: 10px;
+}
+.numbervote{
+    text-align: right ;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.detailvote{
+    text-align: left;
+    margin-left: 20px;
+}
+.titledetailvote strong{
+    font-size: 56px;
+    font-weight: bold;
+}
+.titledetailvote p{
+    font-size: 16px;
+}
+.titledetailvote{
+    margin-top: 10px;
+}
+.titledetailvote span{
+    font-size: 14px;
+    font-weight: bold;
+}
+.bardetailvote{
+    display: flex;
+}
+.infodetailvote{
+    display: flex;
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+}
+.infodetailvote p{
+    margin: auto;
+}
+.rowdv{
+    height: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 44px;
+    background: whitesmoke;
+    margin-top: 10px;
+}
+.titleleft{
+    text-align: left;
+}
+.titleright{
+    text-align: right;
+}
+.commentrate{
+    margin-left: 25px;
+    text-align: left;
+}
+.titlecmt{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.sortcmt button{
+    padding: 10px 20px;
+    border-style: ridge;
+    background: white;
+    cursor: pointer;
+}
+.sortcmt button:hover{
+    
+    border-bottom: 3px solid black;
+    margin-top: -3px;
+}
+.boxcmt{
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+.detailcmt{
+    display: flex;
+    margin-top: 10px;
+}
+.starcmt .checked{
+    font-size: 16px;
+    color: gray;
+}
+.starcmt {
+    font-size: 16px;
+    color: black;
+}
+.datecmt{
+    text-align: right;
+    width: auto;
+    margin-left: 320px;
+}
+.commenttxt{
+    text-align: left;
+}
+.commenttxt strong{
+    font-size: 20px;
+}
+.commenttxt p{
+    font-size: 16px;
+}
+#btnvy,#btnvn{
+    padding: 3px 6px;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#btnvy:hover,#btnvn:hover{
+    padding: 3px 6px;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition:  background 0.3s;
+}
+.yon{
+    display: flex;
+    margin-bottom: 10px;
+}
+#more{
+    display: none;
+}
+#myBtnrm{
+    padding: 10px 40px;
+    border-style: ridge;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 5px;
+    
+}
+#myBtnrm:hover{
+    background: whitesmoke;
+    transition: background 0.3s;
+}
+/*votekhungbar*/
+
+.vote1{
+    width: 0;
+	height: 0;
+    margin-left: 120px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #2ada71;
+    margin-top: -15px;
+    position: absolute;
+}
+.vote2{
+    width: 0;
+	height: 0;
+    margin-left: 220px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #2ada71;
+    margin-top: -15px;
+    position: absolute;
+}
+.vote3{
+    width: 0;
+	height: 0;
+    margin-left: 120px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #2ada71;
+    margin-top: -15px;
+    position: absolute;
+}
+.vote4{
+    width: 0;
+	height: 0;
+    margin-left: 190px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #2ada71;
+    margin-top: -15px;
+    position: absolute;
+}
+/*superster*/
+.votetm{
+    width: 0;
+	height: 0;
+    margin-left: 230px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #2ada71;
+    margin-top: -15px;
+    position: absolute;   
+}
+/*ultra-đánh giá-------------------*/
+.fivestar{
+    background: #2ada71;
+    width: 140px;
+    height: 4px;
+}
+.fourstar{
+    background: #2ada71;
+    width: 100px;
+    height: 4px;
+}
+.threestar{
+    background: #2ada71;
+    width: 30px;
+    height: 4px;
+}
+.twostar{
+    background: #2ada71;
+    width: 30px;
+    height: 4px;
+}
+
+
+
+
+
+
+
+.whathot .tablink{
+    text-align: left;
+    background: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    border:none;
+    border-radius: 0px;
+    padding: 3px;
+    text-decoration: underline;
+}
+.whathot .tablink:hover{
+    background: none;
+    border-radius: 0px;
+    color: black;
+}
+.categories{
+    padding: 0;
+    margin: 0;
+}
+.menu1{
+    list-style-type: none;
+    margin:auto;
+    text-align: center;
+    padding: 35px 0;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+   .menu1 ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 0 20px;
+     text-align: center;
+     position: relative;
+    font-weight: bold;
+   }
+   .menu1 ul li a{
+     text-decoration: none;
+     color:black;
+     padding: 5px 20px;
+     z-index: 3;
+   }
+   .menu1 ul li::after{
+     content: "";
+     height:3px;
+     width: 0;
+     background: black;
+     color: #555;
+     position: absolute;
+     left:0;
+     bottom: -10px;
+     transition: 0.5s;
+   }
+   .menu1 ul li:hover::after{
+     width: 100%;
+   }
+   .col-3{
+       flex-basis: 30%;
+       min-width: 500px;
+       margin-bottom: 30px;
+   }
+   .col-3 img{
+       width: 100%;
+   }
+   .col-3 h1{
+       text-align: left;
+   }
+   .col-3 p{
+    text-align: left;
+    }
+   .smallcol-3{
+    padding:0 10px 10px;
+    text-align: center;
+    float: right;
+    background: white;
+    color:black;
+    }
+    .smallcol-3 u{
+        text-decoration: underline;
+    }
+    .smallcol-4{
+        padding:0 10px;
+        margin-right: 650px;
+        background: white;
+        border-bottom: 3    px solid rgb(0, 195, 255);
+        margin-bottom: 20px;
+    }
+    .smallcol-4 p{
+        font-size: 17px;
+        text-transform: capitalize;
+        color: gray;
+    }
+    .smallcol-4 h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .smallcol-3 u a{
+        font-size: 20;
+    }
+    .smallcol-3 u a:hover{
+        background-color: black;
+        color: white;
+    }
+    .btn1{
+        display: inline-block;
+        background: white;
+        color: black;
+        padding: 10px 20px;/*25 rong 50dai*/
+        margin:10px 0;
+        font-size: 15;
+        transition: background 0.5s;
+        text-align: center;
+        float: left;
+        border-style: ridge;
+        cursor: pointer;
+    }
+.small-container{
+width: 1080px;
+margin: auto;
+}
+.small-container h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.small-container1{
+    max-width: 1080px;
+    margin: auto;
+}
+.small-container6 h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.small-container1 h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.smallcol-3 u a:hover{
+    background-color: black;
+    color: white;
+}
+
+.banchay{
+    width: 1480px;
+    margin: auto;
+    display: flex;
+}
+.SSP{
+    width: 980px;
+    margin: auto;
+}
+.SSP .col-4{
+    min-width: 320px;
+    flex-basis: 5%;/*Chỉnh khoảng cách các bức ảnh*/
+    margin-bottom: 40px;
+    margin-top:40px;
+    justify-content: space-around;
+}
+.sspposterbottom{
+    width: 1080px;
+    display: flex;
+    margin: auto;
+}
+.sspposterbottom img{
+    width: 350px;
+    height: 430px;
+
+}
+.banner{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position:relative;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width:100%;     
+    height: 60%;
+    pointer-events: none;
+}
+
+.yezzyqntm{
+    background-image: url("yzqntm.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    min-width: 960px;
+    min-height: 650px;
+    padding-top: 202px;
+    padding-bottom: 202px;
+    text-align: center;
+}
+.yezzyqntmtext{
+    background: none;
+    color: black;
+    position: absolute;
+    width: 400px;
+    text-align: left;
+    left: 30px;/*Bỏ này là ở giữa*/
+    padding: 10px;   
+}
+.yezzyqntmtext h1{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#Shoeyz .col-4{
+    min-width: 400px;
+    flex-basis: 5%;/*Chỉnh khoảng cách các bức ảnh*/
+    margin-bottom: 40px;
+    margin-top:40px;
+    justify-content: space-around;} 
+.banner .content{
+    background: none;
+    color: white;
+    position: absolute;
+    width: 400px;
+    text-align: left;
+    bottom:0;
+    left: 0;/*Bỏ này là ở giữa*/
+    padding: 10px;
+}
+.banner .content p{
+    color: white;
+    font-size: 25px;
+}
+.banner .content h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.col-4{
+    min-width: 200px;
+    flex-basis: 5%;/*Chỉnh khoảng cách các bức ảnh*/
+    margin-bottom: 40px;
+    margin-top:40px;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+.col-4 img{
+    max-width: 100%;
+    margin:auto;
+}
+.col-4 p6{
+    color: orange;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    width: 100%;
+    text-align: left;
+}
+.Demucsale{
+    margin-top: 150px;
+}
+.saleoff {
+    background: red;
+    color: white;
+    width: 90px;
+    padding: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*transform: rotateZ(30deg);*/
+    position: absolute;
+}
+.product__size{
+    width: 40px;
+}
+.product__name{
+    font-size: 13px;
+    text-align: left;
+    width: 100%;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.zoom p5,.zoom p2,.zoom p3,.zoom p,.star{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.smallcol-5 {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size:50;
+    text-align: center;
+    font-size: 30px;
+}
+
+.smallcol-6 {
+    font-weight: bold;
+    font-size:50;
+    text-align: center;
+    font-size: 30px;
+}
+
+.col-5{
+    min-width: 300px;
+    flex-basis: 25%;/*Chỉnh khoảng cách các bức ảnh*/
+    margin-bottom:50px;
+    margin-top:50px;
+    justify-content: space-around;
+    color: black;
+    font-size: 30;
+}
+.col-5 .tablink{
+    text-align: center;
+    margin-left:75px;
+    margin-right: 75px;
+    border-radius: 50px;
+}
+.col-5 img{
+    max-width: 100%;
+    margin-right:auto;
+    display: block;
+    margin-left: auto;
+}
+
+.slides{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: radial-gradient(rgb(125, 168, 7),rgb(220, 240, 39),yellowgreen);
+    text-align: center;
+}
+.slides2{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: radial-gradient(rgb(235, 172, 56),rgb(252, 168, 13),rgb(255, 132, 17));
+    text-align: center;
+}
+.slides3{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    background: radial-gradient(white,rgb(161, 159, 159));
+}
+.slides4{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    color: green;
+    background: wheat;
+}
+.slides5{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    font-weight: bold;
+}
+.slides6{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: radial-gradient(rgb(119, 0, 231),rgb(121, 67, 122)); 
+    text-align: center;
+    color: white;
+}
+.btn2{
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 0 25px;/*25 rong 50dai*/
+    margin:20px 0;
+    font-size: 15;
+    transition: background 0.5s;
+    text-align: center;
+    border-style: double;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background: rgba(43, 42, 42, 0.904);
+    color: white;
+}
+.btn3{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 25px 50px;/*25 rong 50dai */
+    font-size: 15;
+    transition: background 0.5s;
+    text-align: center;
+    border-style: double;
+    cursor: pointer;
+}
+.btn3:hover{
+    background: rgba(43, 42, 42, 0.904);
+    color: white;
+}
+.zoom {
+    padding: 0px;
+    transition: transform .2s;
+    margin: 0 auto;
+
+
+  }
+.zoom:hover  {
+    transform: translateY(25px);
+    color: black;
+    border: 1px solid black;
+
+}
+.navbar3{
+    display: flex;
+    align-items: right;
+}
+.navbar3 li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.container3{
+    max-width: 100%;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    color:white;
+}
+.container4{
+    width: 100%;
+}
+.container1{
+    width: 100%;
+    margin-top: 10px;
+
+}
+.container3 p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.picture{
+    width: 1080px;
+    margin: auto;
+    border-style: ridge;
+    margin-top: 50px;
+}
+.picture img{
+ width: 1080px;
+ margin: auto;
+}
+
+.menu{
+    padding:0 20px;
+    margin-top: 20px;
+    margin-bottom:100px ;
+
+}.menu .tablink{
+    border: 1px solid rgb(180, 177, 177);
+    outline: none;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.menu1{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:0 20px;
+
+}
+.menu4{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:0 20px;  
+}
+.menu2{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:0 20px;
+    margin:auto;
+    width: 1080px;
+
+}
+.menu3{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:0 20px;
+    margin-top: 90px;
+}
+nav1{
+    text-align: left;
+    flex: 1;
+
+    margin: auto;
+}
+nav1 ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav1 ul li{
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav1 ul li:hover{
+    text-decoration: underline;
+}
+nav1 ul li a{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container p1{
+    margin-top: 50px;
+    float:left;
+    font-weight: bold;
+    font-size: 50px;
+}
+.container a{
+    font-size: 13px;
+}
+
+.slides{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.slides2{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.slides3{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.slides4{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    color: green;
+    background: wheat;
+}
+.slides5{
+    width: 100%;
+    height: 100%;
+    margin:auto;
+    font-weight: bold;
+}
+.slides6{
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: radial-gradient(rgb(119, 0, 231),rgb(121, 67, 122)); 
+    text-align: center;
+    color: white;
+}
+.slides5 h3{
+        font-size: 50px;
+}
+.slides5 h4{
+        font-size: 30px;
+}
+.slides5 p{
+        font-weight: bold;
+}
+.btnsm{
+        display: inline-block;
+        background: green;
+        color: white;
+        padding: 15px 20px;/*25 rong 50dai */
+        margin:20px 0;
+        font-size: 15;
+        transition: background 0.5s;
+        text-align: center;
+        border-style: double; 
+        cursor: pointer;
+}
+.btnsm:hover{
+        color:white;
+        background:rgba(5, 51, 2, 0.925);
+}
+.slides1{
+width: 100%;
+height: 100%;
+margin: auto;
+font-weight: bold;
+}
+.slides1 h3{
+    font-size: 50px;
+}
+.slides1 h4{
+    font-size: 30px;
+}
+.slides1 p{
+    font-weight: bold;
+}
+
+.outfit{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.slidershow h1{
+    text-align: center;
+    margin-top: 20px;
+}
+video{
+    max-width: 100%;
+    color: purple;
+    height: 50vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr{
+    margin-top: 20px;
+    display: inline-block;
+}
+.small-container{
+    max-width: 1100px;
+    margin: auto;
+    }
+.small-container b{
+    margin-top: 10px;
+
+}
+.small-container p1{
+    margin-top: 50px;
+
+}
+.small-container1{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.small-container1 b{
+    margin-top: 10px;
+}
+.small-container2{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.small-container2 h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.small-container3{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.small-container3 h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.small-container4{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.small-container4 h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.small-container5{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.small-container5 h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.small-container6{
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+.small-container7{
+    max-width: 1100px;
+    margin: auto;
+
+}
+.small-container7 h1{
+    text-align: left;
+    margin-top: 30px;
+}
+.small-container8{
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+.groupbox{
+
+    background-color: white;
+}
+.groupbox i{
+    color: red;
+}
+.groupbox i{
+    margin-top: 10px;
+    color: red;
+}
+.zoom1 {
+    padding: 0px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.zoom1:hover{
+    transform: translateY(25px);
+    border-style: ridge;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+/*-----cartpayment--------*/
+.menutop li{
+    position: relative;
+    display: inline-block;
+}
+.cartpayment li{
+    /*margin-left: 30px;
+    margin-right: 250px;*/
+    text-align: center;
+    width: 1080px;
+    margin: auto;
+    z-index: 1;
+}
+.cartpayment{
+    height: auto;
+    margin: auto;
+    overflow-y: scroll;
+    z-index: 1;
+}
+.menutop .cartpayment{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+.menutop li:hover .cartpayment{
+    display: flex;   
+    padding-top:  30px;
+    padding-bottom: 30px;
+    width: 800px;
+    border-style: ridge;
+    color: black;
+    border-style: ridge;
+    margin-left: -620px;
+    position: absolute;
+    background: white;
+    margin-top: -30px;
+    max-height: 400px;
+    z-index: 1;
+}
+.logobank{
+    margin-top: 50px;
+}
+
+.btnpc{
+    background:  black;
+    border-style: double;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    transition: background 0.6s;
+    box-shadow: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.btnpc:hover{
+    background: rgb(97, 96, 96);
+    color: white;
+}
+/*----------cart-item--------*/
+/*Tất cả SP tính tiền*/
+/*Tiêu đề cart*/
+.cart-items{
+width: 100px;
+margin: auto;
+flex: 1;
+}
+.infoAddied{
+text-align: left;
+margin-left: 10px;
+font-weight: bold;
+}
+.size{
+    font-size: 15px;
+    text-decoration: underline;
+}
+/*
+.titleofheadcart{
+    display: flex;
+    width: 580px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 3px 0;
+    text-align: center;
+    border-bottom: ridge;
+    margin-top: 10px;
+}
+.titleofheadcart p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+}*/
+.GIOHANGCUABAN{
+width: 450px;
+margin: auto;
+}
+.GIOHANGCUABAN strong{
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+/*sản phẩm giỏ hàng*/
+.cart-row{
+    display: flex;
+    width: 450px ;
+    margin: auto;
+    border-top:1px dotted;
+}
+.titleProductAdded{
+    display: flex;
+}
+.cart-item img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.cart-item-title{
+    font-weight: bold;
+    font-size: 17px;
+}
+.cart-price{
+}
+.cart-price-item{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.cart-quantity-input{
+max-width: 30px;
+font-weight: bold;
+margin-left: 5px;
+}
+.cart-row .cart-item{
+    margin-left: 10px;
+}
+/*Total money*/
+.total{
+    padding: 5px 7.5px;
+    display: block;
+    text-align: left;
+    border-style: ridge;
+    height: 285px;
+    width: 310px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: rgb(243, 243, 243);
+}
+.smallorder{
+    border-style: ridge;width:100%;
+    font-size: 15px;
+    margin-top: 7px;
+    background: white;
+}
+
+.smallorder .ShipCode{
+    float: right;
+}
+.smallorder p{
+    font-size: 15px;
+}
+.smallorder .total-all-money{
+    float: right;
+}
+.total strong{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.originprice{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+/*Gía gốc*/
+.pricenotsale{
+    padding: 3px;
+    border-bottom: 0.5px solid black;
+}
+.saleitem{
+    padding: 5px;
+    border-bottom:  0.5px solid black;
+}
+.total-money{
+    float: right;
+}/*tiền sale*/
+.codesale{
+    float: right;
+    font-size: 15px;
+}
+/*giá sau khi sale*/
+.total-money1{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+.thue{
+    margin-bottom: 17px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.total-all-money{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.total span{
+    margin-left: 15px;
+    padding: auto;
+}
+.ShipTitle{
+    padding: 5px;
+    border-bottom:0.5px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+/*button remove*/
+.btn-danger{
+margin-left: 10px;
+color: white;
+background: rgb(230, 28, 28);
+padding: 10px 20px;
+border-radius: 30px;
+border: none;
+font-weight: bold;
+transition: background 0.6s;
+cursor: pointer;
+margin-top: 5px;
+}
+    
+.btn-danger:hover{
+    background: rgb(172, 45, 45);
+}
+.btntt{
+    background:  black;
+    border-style: double;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background 0.6s;
+    width: 100%;
+}
+.btntt:hover{
+    background: rgb(97, 96, 96);
+    color: white;
+}
+.footer1{
+background: yellow;
+width: 100%;
+margin-top: 200px;
+}
+.footer2{
+    width: 100%;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    border-bottom: 0.5px solid black;
+}
+.footer3{
+    width: 990px;
+    margin: auto;
+    min-height: 200px;
+}
+.footer4{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: whitesmoke;
+}
+.footer4 p{
+    font-size: 15px;
+}
+.containerfooter1{
+    width: 1080px;
+    margin: auto;
+    display: flex;
+}
+.containerfooter3{
+    width: 980px;
+    display: flex;
+    margin: auto;
+}
+.footer2 .tablink{
+    background: none;
+    color: black;
+    width: 250px;
+    text-align: left;
+    margin-top: 15px;
+}
+.footer2 .tablink:hover{
+    text-decoration: underline;
+}
+.insidefooter2{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+.footer2 nav{
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+.footer2 ul{
+    padding: auto;
+    height: auto;
+}
+.titlefooter1{
+    width: 400px;
+    text-align: left;
+}
+.bottom{
+    width: 250px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bottom1{
+    text-align: left;
+}
+.bottom1 img{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btn-primary{
+    padding: 3px 13px;
+    margin: auto;
+}
+.btndktt{
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 15px 30px;/*25 rong 50dai */
+    font-size: 13px;
+    transition: background 0.5s;
+    text-align: center;
+    border-style: double;
+    cursor: pointer;
+    height: auto;
+    margin: auto;
+
+}
+.btndktt:hover{
+    color: white;
+    background: gray;
+}
+.menuimage{
+    text-align: right;
+    display: none;
+}
+.topposter img{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+#CG p{
+    font-size: 15px;
+    line-height: 1.7;
+}
+.BKC{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.BKC h1{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.contentbkc{
+    width: 680px;
+    margin: auto;
+    text-align: left;
+}
+.BKC .tablink{
+    background: none;
+    color: black;
+    width: 230px;
+    text-align: left;
+    margin: 0;
+}
+.sizegiay{
+    width: 680px;
+    margin: auto;
+    text-align: left;
+}
+.sizegiay h1{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+table{
+    width: 680px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+}
+table,th,td{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 0.2px dotted;
+    border-bottom-color: rgb(204, 204, 204);
+    border-collapse: collapse;
+    height: auto;
+}
+
+.captions{
+    background: gray;
+}
+td:nth-child(1)
+{
+    background-color: rgb(228, 228, 228);
+    font-weight: bold;
+    border-collapse: collapse;
+    margin-right: 5px;
+
+}
+
+td:nth-child(2)
+{
+  background-color: whitesmoke;
+}
+td:nth-child(3)
+{
+  background-color: rgb(228, 228, 228);
+  font-weight: bold;
+}
+td:nth-child(4)
+{
+  background-color: whitesmoke;
+}
+td:nth-child(5)
+{
+  background-color: rgb(228, 228, 228);
+}
+tbody tr:hover td{
+    background: rgb(0, 217, 255);
+    cursor: pointer;
+}
+.allcontainershoe{
+    width: 1180px;
+    margin: auto;
+    display: flex;
+}
+
+.titlesize{
+  text-align: left;
+}
+.titlesize strong{
+    color: #50a5d6;
+    font-weight: bold;
+}
+.menubottom{
+    font-size: 13px;
+    border-left: 0.5px solid rgb(201, 201, 201);
+    margin-top: 5px;   
+}
+.allcontainershoe .leftside{
+    margin-top: 100px;
+}
+.leftside .tablink{
+    background: none;
+    color: black;
+    width: 280px;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 13px;
+    border: none;
+}
+.leftside .tablink:hover{
+    text-decoration: underline;
+    color: #50a5d6;
+    background: none;
+}
+.chongiayphuhop{
+    display: flex;
+    width: 680px;
+    margin: auto;
+}
+.contentchongiay{
+    text-align: left;
+    margin-top: 20px;
+}
+.contentchongiay h1{
+    font-size: 20px;
+}
+.contentchongiay li{
+    margin-left: 20px;
+    width:auto;
+}
+.contentchongiay span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #50a5d6;
+}
+.containtrahang{
+    width: 780px;
+    margin: auto;
+}
+.trahangtitle{
+    text-align: left;
+    margin-top: 100px;
+}
+.trahangtitle h1{
+    font-size: 48px;
+    margin: 5px;
+}
+.cauhoithacmac{
+    text-align: left;
+    font-size: 15px;
+    border-top: 0.2px dotted;
+    border-bottom:  0.2px dotted ;
+    margin-right: 50px;
+    border-color: rgb(224, 223, 223);
+}
+.cauhoithacmac h1{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cauhoithacmac p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+.cauhoithacmac li{
+    margin-left: 20px;
+    color: #50a5d6;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.vtctt{
+    text-align: left;
+    margin-top: 20px;
+}
+.containvctt{
+    margin-top: 100px;
+}
+.containvctt h1{
+    font-size: 38px;
+    text-align: left;
+}
+
+.vctt{
+    width: 780px;
+    margin: auto;
+}
+.contentgt{
+    width:1080px;
+    margin: auto;
+    text-align: left;
+
+}
+.wrapper{
+width: 400px;
+margin: auto;
+}
+    
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+.wrapper button{
+      color: white;
+      background: black;
+      border-radius: 50px;
+    padding: 10px 60px;  
+    cursor: pointer;    
+}
+.wrapper button:hover{
+    background: rgb(26, 26, 26);
+}
+  
+  #error_message{
+    margin-bottom: 20px;
+    background: rgb(204, 60, 60);
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+.contentgt p{
+    font-size: 15px;
+}
+.gttitle h1{
+    font-size: 48px;
+    text-align: left;
+}
